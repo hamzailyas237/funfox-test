@@ -1,0 +1,75 @@
+.background_container {
+  background-image: url("../../assets/backgroundImage.png");
+  height: auto;
+  height: 130vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .logo {
+    width: 160px;
+    height: 91.02px;
+    transform: rotate(340deg);
+  }
+
+  .week {
+    width: 153px;
+    height: 41px;
+  }
+
+  .inner_container {
+    display: flex;
+    justify-content: space-between;
+    height: 80vh;
+
+    .flex_column_between {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+
+      .pencil {
+        width: 61.41px;
+        height: 37.33px;
+      }
+      .scale {
+        width: 92.1px;
+        height: 94.57px;
+      }
+      .bag {
+        width: 61.76px;
+        height: 54.86px;
+      }
+      .book_close {
+        width: 74.02px;
+        height: 73.36px;
+      }
+      .book_open {
+        width: 66.32px;
+        height: 60.66px;
+      }
+      .mortarboard {
+        width: 82.21px;
+        height: 77.06px;
+      }
+    }
+  }
+
+  .background_footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    .footer_icon {
+      height: 48px;
+      width: 48px;
+    }
+    .numering_image {
+      height: 37px;
+      width: 75px;
+    }
+    .background_footer_inner {
+      display: flex;
+      align-items: center;
+    }
+  }
+}
