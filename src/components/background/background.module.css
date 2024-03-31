@@ -2,7 +2,7 @@
   background-image: url("../../assets/backgroundImage.png");
   height: auto;
   height: 130vh;
-  display: flex;
+  display: flex !important;
   flex-direction: column;
   justify-content: space-between;
 
@@ -18,12 +18,12 @@
   }
 
   .inner_container {
-    display: flex;
+    display: flex !important;
     justify-content: space-between;
     height: 80vh;
 
     .flex_column_between {
-      display: flex;
+      display: flex !important;
       flex-direction: column;
       justify-content: space-between;
       align-items: center;
@@ -56,7 +56,7 @@
   }
 
   .background_footer {
-    display: flex;
+    display: flex !important;
     justify-content: space-around;
     align-items: flex-end;
     .footer_icon {
